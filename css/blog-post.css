@@ -1,0 +1,295 @@
+/*Start Global Styles*/
+h3 {
+    margin-bottom: 20px;
+}
+h3:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 43px;
+    height: 4px;
+    background-color: var(--main-color);
+    margin-top: 15px;
+}
+h4 {
+    font-size: 19px;
+}
+.comment {
+    display: flex;
+}
+.author-info {
+    margin-left: 20px;
+}
+.auther-heading {
+    display: flex;
+}
+p {
+    padding: 0 4px;
+}
+.margin-top {
+    margin-top: 40px;
+}
+.margin-bottom {
+    margin-bottom: 45px;
+}
+/*End Global Styles*/
+
+/*Start Nav*/
+nav.navbar {
+    border-bottom: 1px solid var(--border-color);
+    background-color: var(--sec-color);
+}
+nav .logo h2,
+nav ul li .nav-link
+{
+    color: var(--third-color) !important;
+}
+nav.navbar ul li .nav-link:hover,
+nav.navbar ul li .active
+{
+    color: var(--main-color) !important;
+}
+/*End Nav*/
+
+/*Start Blog Page*/
+.blog-page {
+    padding: 50px 0;
+    background-color: #FAFAFA;
+    border-bottom: 1px solid var(--border-color); 
+}
+.blog-page .breadcrumb {
+    background: none;
+}
+.blog-page a {
+    display: inline-block;
+}
+/*End Blog Page*/
+
+/*Start Blog Post*/
+.single-blog {
+    padding: 110px 0;
+}
+.single-blog .blog-post .post-info {
+    margin-top: 20px;
+}
+.single-blog .blog-post .post-info li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.single-blog .blog-post h3
+{
+    margin-top: 20px;
+}
+.single-blog .blog-post h3:after {
+    width: 0;
+    height: 0;
+}
+.single-blog .tags
+{
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+.single-blog .tags h5{
+   display: inline-block;
+}
+.single-blog .tags .related-tag {
+    display: inline-block;
+}
+.single-blog .tags .related-tag li {
+    display: inline-block;
+}
+.single-blog .tags .related-tag li a {
+    background-color: #F4F4F4;
+    text-decoration: none; 
+    color: var(--third-color);
+    padding: 6px 10px;
+    font-size: 14px;
+    margin-bottom: 5px;
+    -webkit-transition: all 0.1s ease-in-out;
+            transition: all 0.1s ease-in-out;
+}
+.single-blog .tags .related-tag li a i {
+    margin-right: 3px;
+}
+.single-blog .tags .related-tag li a:hover {
+    background-color: var(--main-color);
+    color: var(--sec-color);
+    opacity: 0.9;
+}
+.single-blog .tags .related-tag li a:hover i {
+    color: var(--sec-color);
+}
+.single-blog .blog-author {
+    border: 1px solid var(--border-color);
+    padding: 20px;
+}
+.single-blog .blog-author .auther-heading {
+    border-bottom: 1px solid var(--border-color);
+}
+.single-blog .blog-author .author-info h3:after {
+    width: 0;
+    height: 0;
+}
+.single-blog .blog-author .author-info .icons-socials {
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+.single-blog .blog-author .author-info a {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 4px;
+    margin-left: 5px;
+    background-color: var(--main-color);
+}
+.single-blog .blog-author .author-info a:hover {
+    opacity: 0.8;
+}
+.single-blog .blog-author .author-info a i
+{
+    color: var(--sec-color);
+}
+.single-blog .blog-author .author-info p {
+    margin-top: 20px;
+}
+.single-blog .comments {
+    padding: 40px 0;
+}
+.single-blog .comments h3
+{
+    margin-bottom: 40px;
+}
+.single-blog .comments .comment {
+    border: 1px solid var(--border-color);
+    padding: 20px;
+}
+.single-blog .comments > .comment:nth-of-type(2) {
+    border-top: none;
+    border-bottom: none;
+    display: block;
+}
+.single-blog .comments .comment:nth-of-type(2) .comment-info {
+    display: flex;
+}
+.single-blog .comments .comment h4 span{
+    color: var(--forth-color);
+    font-size: 13px;
+    font-weight: 100;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+.single-blog .comments .comment h4 a {
+    font-size: 13px;
+    font-weight: 100;
+    margin-left: auto; 
+}
+.single-blog .comments .comment h4 a i {
+    margin-left: 5px;
+}
+.single-blog .comments .first-subcomment {
+    border-color: var(--main-color);
+    background-color: #F4F4F4;
+}
+.single-blog .comments .first-subcomment h4 {
+    color: var(--main-color);
+}
+.single-blog .comments .second-subcomment {
+    border-top: none;
+}
+.leave-reply {
+    padding-bottom: 30px;
+}
+/*Start Aside*/
+aside .search {
+    position: relative;
+}
+aside .search .input[type='search'] {
+    padding: 8px 0;
+    display: block;
+}
+aside .search .btn-search {
+    background: none;
+    border: none;
+    outline: none;
+    padding: 8px 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+aside .category {
+    border-top: 1px solid var(--border-color)
+}
+aside .category li {
+    border-bottom: 1px solid var(--border-color);
+    padding:7px 0;
+}
+aside .category li a {
+    font-size: 14px;
+    color: var(--third-color);
+    text-decoration: none;
+    display: flex;
+}
+aside .category li a span {
+    color: var(--main-color);
+    margin-left: auto;
+}
+aside .category li a:hover {
+    color: var(--main-color);
+    opacity: 0.9;
+}
+aside .widget-post {
+   min-height: 70px;
+   margin-bottom: 20px;
+}
+aside .widget-post a {
+   text-decoration: none;
+   color: var(--third-color);
+   -webkit-transition: all 0.1s ease-in-out;
+           transition: all 0.1s ease-in-out;
+}
+aside .widget-post a:hover {
+    color: var(--main-color);
+    opacity: 0.9;
+}
+aside .widget-post a img {
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+aside .widget-post span {
+  display: inline-block;
+  color: var(--main-color);
+    font-size: 13px;
+}
+aside .related-posts li {
+     display: inline-block;
+}
+aside .related-posts li a {
+    background-color: #F4F4F4;
+    text-decoration: none; 
+    color: var(--third-color);
+    padding: 6px 12px;
+    font-size: 14px;
+    margin-bottom: 5px;
+    -webkit-transition: all 0.1s ease-in-out;
+            transition: all 0.1s ease-in-out;
+}
+aside .related-posts li a:hover {
+    background-color: var(--main-color);
+    color: var(--sec-color);
+    opacity: 0.9;
+}
+/*End Aside*/
+
+/*End Blog Post*/
+
+/*Start Media Query*/
+@media (max-width: 991.98px) {
+    .spacing {
+       padding: 34px 0;
+    }
+}
+/*End Media Query*/
